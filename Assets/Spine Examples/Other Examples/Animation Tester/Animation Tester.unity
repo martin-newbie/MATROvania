@@ -234,29 +234,34 @@ MonoBehaviour:
       key: 0
       useCustomMixDuration: 0
       mixDuration: 0
-    - animationName: Attack
+    - animationName: AttackA
       loop: 0
       key: 97
       useCustomMixDuration: 0
       mixDuration: 0
     - animationName: Death
       loop: 0
-      key: 115
+      key: 100
       useCustomMixDuration: 0
       mixDuration: 0
     - animationName: Hit
       loop: 0
-      key: 100
+      key: 102
       useCustomMixDuration: 0
       mixDuration: 0
     - animationName: Idle
       loop: 1
-      key: 102
+      key: 120
       useCustomMixDuration: 0
       mixDuration: 0
     - animationName: Move
       loop: 1
       key: 122
+      useCustomMixDuration: 0
+      mixDuration: 0
+    - animationName: AttackB
+      loop: 1
+      key: 115
       useCustomMixDuration: 0
       mixDuration: 0
   boundAnimationsText: {fileID: 1686693730}
@@ -726,7 +731,8 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Animation Controls:\r\n---- Track 0 ---- \n\r\n---- Track 1 ---- \n[None] 
-    SetEmptyAnimation\n[A]  Attack\n[S]  Death\n[D]  Hit\n[F]  Idle\n[Z]  Move\n"
+    SetEmptyAnimation\n[A]  AttackA\n[D]  Death\n[F]  Hit\n[X]  Idle\n[Z]  Move\n[S] 
+    AttackB\n"
 --- !u!222 &1686693731
 CanvasRenderer:
   m_ObjectHideFlags: 0
