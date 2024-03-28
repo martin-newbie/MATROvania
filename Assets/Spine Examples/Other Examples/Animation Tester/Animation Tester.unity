@@ -249,6 +249,11 @@ MonoBehaviour:
       key: 115
       useCustomMixDuration: 0
       mixDuration: 0
+    - animationName: Death
+      loop: 0
+      key: 122
+      useCustomMixDuration: 0
+      mixDuration: 0
   boundAnimationsText: {fileID: 1686693730}
   skeletonNameText: {fileID: 1268414380}
 --- !u!4 &128310968
@@ -716,7 +721,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Animation Controls:\r\n---- Track 0 ---- \n\r\n---- Track 1 ---- \n[None] 
-    SetEmptyAnimation\n[A]  Idle\n[D]  Load\n[S]  Shoot\n"
+    SetEmptyAnimation\n[A]  Idle\n[D]  Load\n[S]  Shoot\n[Z]  Death\n"
 --- !u!222 &1686693731
 CanvasRenderer:
   m_ObjectHideFlags: 0
