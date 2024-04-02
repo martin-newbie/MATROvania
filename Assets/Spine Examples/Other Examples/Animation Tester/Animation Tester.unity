@@ -239,12 +239,12 @@ MonoBehaviour:
       key: 97
       useCustomMixDuration: 0
       mixDuration: 0
-    - animationName: Load
+    - animationName: AttackD
       loop: 0
       key: 100
       useCustomMixDuration: 0
       mixDuration: 0
-    - animationName: Shoot
+    - animationName: AttackM
       loop: 0
       key: 115
       useCustomMixDuration: 0
@@ -252,6 +252,11 @@ MonoBehaviour:
     - animationName: Death
       loop: 0
       key: 122
+      useCustomMixDuration: 0
+      mixDuration: 0
+    - animationName: AttackU
+      loop: 0
+      key: 120
       useCustomMixDuration: 0
       mixDuration: 0
   boundAnimationsText: {fileID: 1686693730}
@@ -486,7 +491,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Seayoan
+  m_Text: LeeGun
 --- !u!222 &1268414381
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -556,7 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: cc6b1f95f0ca011408dcc488c47b3e40, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 06fbe3f30337dd64d839feedab7ddb7b, type: 2}
   initialSkinName: 
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
@@ -606,7 +611,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b8659af8c57ac80448b02553635c6364, type: 2}
+  - {fileID: 2100000, guid: 154977e7b4558364299c0a433955a064, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -721,7 +726,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Animation Controls:\r\n---- Track 0 ---- \n\r\n---- Track 1 ---- \n[None] 
-    SetEmptyAnimation\n[A]  Idle\n[D]  Load\n[S]  Shoot\n[Z]  Death\n"
+    SetEmptyAnimation\n[A]  Idle\n[D]  AttackD\n[S]  AttackM\n[Z]  Death\n[X]  AttackU\n"
 --- !u!222 &1686693731
 CanvasRenderer:
   m_ObjectHideFlags: 0
