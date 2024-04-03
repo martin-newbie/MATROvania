@@ -235,27 +235,22 @@ MonoBehaviour:
       useCustomMixDuration: 0
       mixDuration: 0
     - animationName: Idle
-      loop: 0
+      loop: 1
       key: 97
       useCustomMixDuration: 0
       mixDuration: 0
-    - animationName: AttackD
+    - animationName: Death 0
       loop: 0
       key: 100
       useCustomMixDuration: 0
       mixDuration: 0
-    - animationName: AttackM
+    - animationName: Attack
       loop: 0
       key: 115
       useCustomMixDuration: 0
       mixDuration: 0
-    - animationName: Death
-      loop: 0
-      key: 122
-      useCustomMixDuration: 0
-      mixDuration: 0
-    - animationName: AttackU
-      loop: 0
+    - animationName: Move
+      loop: 1
       key: 120
       useCustomMixDuration: 0
       mixDuration: 0
@@ -491,7 +486,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: LeeGun
+  m_Text: ElectZombie
 --- !u!222 &1268414381
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -561,7 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 06fbe3f30337dd64d839feedab7ddb7b, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 597dec5b0cc18994c8de1582c404e142, type: 2}
   initialSkinName: 
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
@@ -590,7 +585,7 @@ MonoBehaviour:
   updateTiming: 1
   unscaledTime: 0
   _animationName: Idle
-  loop: 1
+  loop: 0
   timeScale: 1
 --- !u!23 &1460259496
 MeshRenderer:
@@ -611,7 +606,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 154977e7b4558364299c0a433955a064, type: 2}
+  - {fileID: 2100000, guid: 41b8fa03995561744bab608d9be34c6c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -726,7 +721,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Animation Controls:\r\n---- Track 0 ---- \n\r\n---- Track 1 ---- \n[None] 
-    SetEmptyAnimation\n[A]  Idle\n[D]  AttackD\n[S]  AttackM\n[Z]  Death\n[X]  AttackU\n"
+    SetEmptyAnimation\n[A]  Idle\n[D]  Death 0\n[S]  Attack\n[X]  Move\n"
 --- !u!222 &1686693731
 CanvasRenderer:
   m_ObjectHideFlags: 0
